@@ -1,1 +1,1 @@
-# semantic-feedstock
+# semantic-feestock
