@@ -11,7 +11,8 @@ source:
   sha256: d2cb2de0558762934679b9a104e82eca7af448c9f4974d1f3eeccff651df8a54
 
 build:
-  number: 1
+  number: 2
+  string: py_{{ PKG_BUILDNUM }}
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
